@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+body{
+    border: 0px;
+    background: linear-gradient(#f9f9f9,#999999,#a0a0a0);
+    margin: 0px;
+}
+html{
+    font-family: 'Bodoni Moda SC',sans-serif;
+}
+.img1{
+    width:10%;
+    margin-left: 1%;
+    margin-top: 1px;
+}
+.header{
+    width: 100%;
+    height: min-content;
+    position: sticky;
+    top: 0%;
+
+}
+.main-body{
+    width: auto;
+}
+.img1:hover{
+    box-shadow:1px 2px 20px rgba(0,0,0,0.1),
+    -10px -10px 10px white;
+    background-color: #f9f9f9;
+}
+.footer{
+    text-decoration: none;
+    color: black;
+    width:100%;
+    height: min-content;
+    background-color: #9e99997c;
+    position: relative;
+    bottom: 0%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#text-a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-weight: 400 900;
+    font-display: swap;
+    cursor: pointer;
+}
+#text-a:hover{
+    box-shadow: 10px 10px 10px rgb(60, 71, 60),
+    -10px -10px 10px rgb(206, 206, 163);
+    background-color: #f9f9f9;
+}
+.content-a{
+    background: linear-gradient(#44444446,#52464638);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 3rem;
+    padding: 2rem;
+}
+.content-a:hover{
+    box-shadow: 10px 10px 10px rgb(60, 71, 60),
+    -10px -10px 10px rgb(206, 206, 163);
+}
+#h-a{
+    font-weight: 900;
+    filter: drop-shadow(1px 1px 2px gray);
+}
+.content{
+    padding-left: 10%;
+    padding-right: 5%;
+}
+#text-b{
+    font-weight: 400;
+    font-size: default;
+}
+#text-c{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+#text-c:hover{
+    font-weight: 1000;
+}
